@@ -1,0 +1,27 @@
+#!/bin/sh
+
+if [ -d "./pre" ]
+then
+
+mv *.JPG *.jpg
+mv *.PNG *.png
+mv *.JPEG *.jpeg
+
+# robocopy "./pre" "./sizeFilter" /s /min:30000 /mov
+
+echo "Resizing..."
+
+gulp resize
+
+echo "Resizing successful"
+echo "Compressing..."
+
+gulp compress
+
+echo "Compression successful"
+
+rm -rf "ThisFolderShouldNotExist"
+
+else
+echo "Put all images in <pre> directory first"
+fi
