@@ -6,7 +6,7 @@ Its a git hook, which resize & compress images according to configuration in `Gu
 - Save the `pre-commit` file into `.git/hooks` folder of your git repository<br>
 Alternatively, using terminal navigate to `.git/hooks` folder of your repository and paste the following:
 	
-    **curl -L -o "pre-commit" "https://raw.githubusercontent.com/utkarsh48/preCommit-ImgOptim/master/pre-commit"**
+    **curl -o "pre-commit" "https://raw.githubusercontent.com/utkarsh48/preCommit-ImgOptim/master/pre-commit"**
 
 - Place the `Gulpfile.js` and `package.json` in main working directory.
 - Open terminal in main directory and type following
