@@ -4,7 +4,7 @@
 Its a git hook, which resize & compress images according to configuration in `Gulpfile.js`
 #### Pre-requisite [Node.Js](https://nodejs.org/), folder named `pre/`(default) with images.
 - Save the `pre-commit` file into `.git/hooks` folder of your git repository<br>
-Alternatively use terminal navigate to `.git/hooks` folder of your repository and paste the following:
+Alternatively, using terminal navigate to `.git/hooks` folder of your repository and paste the following:
 	
     **curl -L -o "pre-commit" "https://raw.githubusercontent.com/utkarsh48/preCommit-ImgOptim/master/pre-commit"**
 
